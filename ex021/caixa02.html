@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(97, 160, 95);          
+            
+        }
+        header {width: 800px;
+                background-color: green;
+            padding: 10px;
+            margin: auto;
+            border:1px green solid;
+            border-radius: 10px; 
+            
+
+        }
+        h1 {color: beige;
+          
+        }
+        nav {
+            background-color: greenyellow;
+            padding: 3px;
+            border: 1px greenyellow solid;
+            border-radius: 9px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 5px;
+            margin: 5px;
+        }
+        main{ width: 800px;
+            background-color: green;
+            padding: 10px;
+            margin:  10px auto 10px auto;
+            border: 5px green solid;
+            border-radius: 10px;
+            color: beige;
+        }
+        footer { background-color: white;
+                 color: green;
+                text-align: center;
+                 padding: 1px;
+                 margin: 0px;
+                border-style: solid;
+                 border-radius: 10px;
+                border-color:white ;}
+                
+article {
+    width: auto;
+    background-color: rgb(67, 168, 58);
+    border: 1px rgb(67, 168, 58) solid;
+    border-radius: 10px;
+        background-image:url(img/noticia.jpg);
+    background-position: auto;
+}
+article > aside {
+    background-color: rgb(168, 255, 128);
+    border: 1px rgb(67, 168, 58) solid;
+    border-radius: 10px;
+    padding: 3px;
+    color: black;
+    
+}
+#assunto{
+    font-weight:bolder;
+       border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(67, 168, 58);
+    padding: 1px;
+    background-image: linear-gradient(to right, green, greenyellow);
+}
+p {
+    font-weight:bold;
+    color: rgb(173, 241, 142);
+    margin:  10px auto 10px auto;
+    
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="cabecalho">FutNews Brazilian</h1>
+        <nav><a href="#">Link1</a> 
+            <a href="#">Link2</a>
+        <a href="#">.Link3</a>
+        <a href="#">.Link4</a>
+    </nav>
+    </header>
+    <main>
+        <section id="news">
+            <article>
+                <h2 id="assunto">Flamengo ganha Taça Liberadores da América 🏆</h2>
+                <hr>
+            <p>O Rubro-negro carioca goleia o Athlético Paranaense em frente a torcida neutra, que mais parecia um mar Rubro-negro, por 5 x 0. Com direito a hat-trick de Pedro e os outros dois <em>Golaços</em> diga-se de passagem feitos por Gabigol, que também deu duas assistências ao seu companheiro de time.</p>
+                <aside>Artigo escrito por Breno Matos</aside>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Flamengo ganha Taça Liberadores da América 🏆</h2>
+                <hr>
+            <p>O Rubro-negro carioca goleia o Athlético Paranaense em frente a torcida neutra, que mais parecia um mar Rubro-negro, por 5 x 0. Com direito a hat-trick de Pedro e os outros dois <em>Golaços</em> diga-se de passagem feitos por Gabigol, que também deu duas assistências ao seu companheiro de time.</p>
+                <aside>Artigo escrito por Breno Matos</aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>Desenvolvido por Breno Matos</footer>
+    
+</body>
+</html>

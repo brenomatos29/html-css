@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(33, 143, 143);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+h1{
+    color: rgb(117, 182, 243);
+}
+.principal {
+    background-color: black;
+}
+.basico {
+    color: rgba(180, 253, 71, 0.575);
+}
+
+.intermediario {
+    color: lightblue;
+}
+.avancado { background-image: linear-gradient(to right,#fddf37c7, #ff8635c4);
+ 
+    
+}
